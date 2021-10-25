@@ -1,11 +1,9 @@
-function getGreeting(name){
-    return "Hi" + name;
-}
+module.exports = {
 
-module.exports = getGreeting;
-
-function sum(num1, num2){
+getGreeting: function (name){
+    return "Hi " + name;
+},
+sum: function(num1, num2){
     return num1 + num2;
 }
-
-module.exports = sum;
+}

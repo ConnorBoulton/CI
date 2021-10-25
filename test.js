@@ -1,5 +1,4 @@
-const getGreeting = require('./project')
-const sum = require('./project')
+const {getGreeting, sum} = require('./project')
 
 test('adds two numbers', () => {
   expect(sum(10, 10)).toBe(20);
